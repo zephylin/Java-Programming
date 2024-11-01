@@ -1,0 +1,11 @@
+Q1. Find ith bit of a number n
+Ans= n&(1<<i-1)
+
+Q2. Set the ith bit
+Ans= n|(1<<(i-1))
+
+Q3. Reset ith bit
+Ans= n&(!(1<<(i-1))
+
+Q4. Position of Right most set bit
+Ans=  
