@@ -1,4 +1,4 @@
-package Practice_Qtns;
+package SortingAlgorithms;
 import java.util.Arrays;
 
 public class CyclicSort {
