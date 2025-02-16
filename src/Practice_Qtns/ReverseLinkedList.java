@@ -12,8 +12,8 @@ public class ReverseLinkedList {
 	    ListNode(int val) { this.val = val; }
 	}
 
-	public class ReverseLinkedList {
-	    public static ListNode reverseList(ListNode head) {
+	
+	public static ListNode reverseList(ListNode head) {
 	        ListNode prev = null, current = head;
 	        while (current != null) {
 	            ListNode nextTemp = current.next;
@@ -23,7 +23,7 @@ public class ReverseLinkedList {
 	        }
 	        return prev;
 	    }
-	}
+	
 
 
 }
